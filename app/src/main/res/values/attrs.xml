@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Field">
+        <attr name="racquetHeight" format="integer"/>
+        <attr name="racquetWidth" format="integer"/>
+        <attr name="ballRadius" format="integer"/>
+    </declare-styleable>
+</resources>

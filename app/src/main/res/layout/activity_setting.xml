@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/volumeSeekBar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Setting"
+    android:background="@drawable/backgroundjgp">
+
+    <ImageButton
+        android:layout_width="127dp"
+        android:layout_height="159dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:background="#00FFFFFF"
+        android:src="@drawable/sound_image"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.104"
+        android:id="@+id/cutSound"/>
+
+    <ImageView
+        android:id="@+id/barSound"
+        android:layout_width="13dp"
+        android:layout_height="77dp"
+        android:background="#00FFFFFF"
+        android:rotation="-45"
+        android:src="@drawable/line"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.144" />
+
+    <SeekBar
+        android:id="@+id/seekBarSound"
+        android:layout_width="172dp"
+        android:layout_height="40dp"
+        android:thumbTint="#cd33a2"
+        android:progressTint="#cd33a2"
+        android:progressBackgroundTint="#74e2fa"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="239dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.24"
+        />
+
+    <ImageButton
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/home"
+        android:background="#00FFFFFF"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        android:id="@+id/homeButton"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
