@@ -48,7 +48,7 @@ public class GameView extends View {
 
         // Balle
         ballX = screenWidth / 2f;
-        ballY = 3* screenHeight / 4f;
+        ballY = screenHeight / 4f;
         Random random = new Random();
         ballSpeedX = (random.nextFloat() * 15) + 15;
         ballSpeedY = (random.nextFloat() * 15) + 15;
